@@ -9,3 +9,19 @@
 .blue {
   background: #009;
 }
+
+.wrapper {
+  display:  flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.green,
+.red {
+  flex: 1 1 50%;
+}
+
+.blue {
+  flex:  1 1 100%;
+}
